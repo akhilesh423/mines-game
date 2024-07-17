@@ -38,7 +38,7 @@ export default function Tile(props: any) {
     >
         {isClicked || gameOver ? (
                 number === 0 ? (
-                    <Image src={gem} alt="gem" layout="fill" objectFit="contain" />
+                    <Image src={gem} alt="gem" layout="fill" objectFit="contain"  />
                 ) : (
                     <Image src={bomb} alt="bomb" layout="fill" objectFit="contain"className="p-4" />
                 )

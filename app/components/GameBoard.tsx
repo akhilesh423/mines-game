@@ -33,7 +33,7 @@ export default function GameBoard(props:any){
     
 
     return(
-        <div className="grid grid-cols-5 gap-4 grow max-w-2xl m-auto">
+        <div className="grid grid-cols-5 gap-3 grow max-w-lg m-auto">
           {minesIndexArray.map((eachItem, index) => (
                     <Tile key={index} id={index} number={eachItem} startGame= {startGame}/>
                 ))}

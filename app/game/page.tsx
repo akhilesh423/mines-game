@@ -12,7 +12,7 @@ export default function Game(){
 
     return(
         <div className="h-screen w-screen p-5 flex flex-row">
-             <div className="w-full max-w-sm p-5 grey-bg rounded-lg">
+             <div className="w-full max-w-80 p-5 grey-bg rounded-lg">
         <label>Mines</label>
       <select onChange={(e)=> {
         setNoOfMines(e.target.value)
